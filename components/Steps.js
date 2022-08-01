@@ -1,7 +1,7 @@
 const Steps = () => (
-  <section id="steps" className="text-gray-700 body-font">
+  <section id="steps" className="text-gray-700 body-font dark:text-white">
     <div className="container px-5 py-24 mx-auto">
-      <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">
+      <h1 className="sm:text-3xl text-2xl font-medium text-center title-font mb-4 ">
         ¿Cual es el Proceso a Seguir?
       </h1>
       <div className="py-3 flex flex-wrap">
@@ -27,7 +27,7 @@ const Steps = () => (
               </svg>
             </div>
             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-              <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
+              <h2 className="font-medium title-font text-gray-900 mb-1 text-xl dark:text-white">
                 Charlemos
               </h2>
               <p className="leading-relaxed">
@@ -59,7 +59,7 @@ const Steps = () => (
               </svg>
             </div>
             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-              <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
+              <h2 className="font-medium title-font text-gray-900 mb-1 text-xl dark:text-white">
                 Diseño y Planeación
               </h2>
               <p className="leading-relaxed">
@@ -92,7 +92,7 @@ const Steps = () => (
               </svg>
             </div>
             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-              <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
+              <h2 className="font-medium title-font text-gray-900 mb-1 text-xl dark:text-white">
                 Desarrollo
               </h2>
               <p className="leading-relaxed">
@@ -125,7 +125,7 @@ const Steps = () => (
               </svg>
             </div>
             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-              <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
+              <h2 className="font-medium title-font text-gray-900 mb-1 text-xl dark:text-white">
                 Pruebas y Entrega
               </h2>
               <p className="leading-relaxed">
